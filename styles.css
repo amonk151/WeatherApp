@@ -49,7 +49,7 @@ img, picture,svg,video {
     justify-content: space-around;
     text-align: center;
     width: 300px;
-    margin: 0 10px;
+    margin: 10px;
     height: 300px;
     border: 1px solid black;
 }
