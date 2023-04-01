@@ -1,13 +1,3 @@
-/* promises
-fetch('http://api.weatherapi.com/v1/current.json?key=2964ab63e4934c09be8171808233103&q=Baltimore')
-    .then(function(response){
-        return response.json();
-    })
-
-    .then(function(response){
-        console.log(response.current.temp_f);
-    })
-    */
 //object factory
 function weather(name, temp_f, feelslike_f, gust_mph, humidity) {
     return{name, temp_f, feelslike_f, gust_mph, humidity}
